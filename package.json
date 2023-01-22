@@ -2,7 +2,7 @@
   "name": "presearch",
   "displayName": "Presearch",
   "description": "Presearch for answers to any error, mistakes, or confusion you may have!",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -11,9 +11,9 @@
     "Other"
   ],
   "activationEvents": [
-		"onCommand:presearch.makeSearch",
-		"onCommand:presearch.makeSearchFromTerminal"
-	],
+    "onCommand:presearch.makeSearch",
+    "onCommand:presearch.makeSearchFromTerminal"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
