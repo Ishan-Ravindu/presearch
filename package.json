@@ -31,8 +31,8 @@
       },
       {
         "command": "presearch.makeSearchFromTerminal",
-        "key": "ctrl+alt+k g",
-        "mac": "cmd+alt+k g",
+        "key": "ctrl+alt+p o",
+        "mac": "cmd+alt+p o",
         "when": "terminalFocus"
       }
     ],
