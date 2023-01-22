@@ -2,7 +2,7 @@
   "name": "presearch",
   "displayName": "presearch",
   "description": "presearch",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -15,36 +15,36 @@
   ],
   "main": "./out/extension.js",
   "contributes": {
-		"commands": [
-			{
-				"command": "presearch.makeSearch",
-				"title": "presearch selected text"
-			}
-		],
-		"keybindings": [
-			{
-				"command": "presearch.makeSearch",
-				"key": "ctrl+alt+p",
-				"mac": "cmd+alt+p",
-				"when": "editorHasSelection"
-			},
-			{
-				"command": "presearch.makeSearchFromTerminal",
-				"key": "ctrl+alt+k g",
-				"mac": "cmd+alt+k g",
-				"when": "terminalFocus"
-			}
-		],
-		"menus": {
-			"editor/context": [
-				{
-					"command": "presearch.makeSearch",
-					"when": "editorHasSelection",
-					"group": "navigation"
-				}
-			]
-		}
-	},
+    "commands": [
+      {
+        "command": "presearch.makeSearch",
+        "title": "presearch selected text"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "presearch.makeSearch",
+        "key": "ctrl+alt+p",
+        "mac": "cmd+alt+p",
+        "when": "editorHasSelection"
+      },
+      {
+        "command": "presearch.makeSearchFromTerminal",
+        "key": "ctrl+alt+k g",
+        "mac": "cmd+alt+k g",
+        "when": "terminalFocus"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "presearch.makeSearch",
+          "when": "editorHasSelection",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
@@ -67,8 +67,8 @@
     "@vscode/test-electron": "^2.2.0"
   },
   "publisher": "Ishan-Ravindu",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Ishan-Ravindu/presearch.git"
-	}
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ishan-Ravindu/presearch.git"
+  }
 }
