@@ -1,23 +1,9 @@
 # presearch README
 
-## Features
+## What is does
 
-## Requirements
+If you're unsure about the purpose of a specific line of code or function, you can easily highlight it and quickly access relevant search results in your default web browser without having to manually type or copy the information.
 
-## Extension Settings
+## How it works!
 
-## Known Issues
-
-## Release Notes
-
-### 1.0.0
-
----
-
-## Following extension guidelines
-
-## Working with Markdown
-
-## For more information
-
-**Enjoy!**
+Simply select the word or function you want to search, then right click and click on "presearch selected text".
